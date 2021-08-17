@@ -22,7 +22,7 @@ class _MovieScreenState extends State<MovieScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Movie"),
+        title: Text("Movie Info"),
         centerTitle: true,
       ),
       body: SingleChildScrollView(

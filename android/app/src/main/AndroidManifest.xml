@@ -2,7 +2,7 @@
     package="com.inxparticle.detail_info.detail_info">
     <uses-permission android:name="android.permission.INTERNET" />
    <application
-        android:label="detail_info"
+        android:label="Movie Info"
         android:icon="@mipmap/ic_launcher">
         <activity
             android:name=".MainActivity"

@@ -1,4 +1,5 @@
 import 'package:detail_info/src/ui/dashboard_screen.dart';
+import 'package:detail_info/src/ui/movie_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -18,7 +19,7 @@ class _AppState extends State<App> {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData.dark(),
-      home: DashBoardScreen(),
+      home: MovieScreen(),
     );
   }
 }
